@@ -46,6 +46,10 @@ body {
   margin: 0;
 }
 
+.todo-list input {
+  margin-right: 20px; /* html input에 checkbox와 글자를 입력하였기에 문자와 글자 사이의 공백을 준다 */
+}
+
 .todo-list label {
   text-decoration: none;
   color: white;
@@ -87,6 +91,10 @@ body {
   padding-left: 0;
   margin: 0;
   text-decoration: line-through;
+}
+
+.clear-list input {
+  margin-right: 20px;
 }
 
 .clear-list button {
