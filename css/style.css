@@ -16,7 +16,7 @@ body {
 }
 
 .section-subtitle {
-  font-size: 18px;
+  font-size: 18px; /* 1~3번 title size */
   border-bottom: 2px solid white;
   padding-bottom: 6px;
   margin-top: 15px;
@@ -30,7 +30,75 @@ body {
   padding: auto;
 }
 
-/* .input-wrapper {
+.input-wrapper {
   display: flex;
   gap: 10px;
-} */
+}
+
+.todo-section {
+  width: 40%;
+  margin-bottom: 70px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.todo-list label {
+  text-decoration: none;
+  color: white;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.todo-list button {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.edit-button {
+  background-color: black;
+  color: gray;
+  border: none;
+}
+
+.delete-button {
+  background-color: black;
+  color: red;
+  border: none;
+}
+
+.clear-section {
+  width: 40%;
+  margin-bottom: 70px;
+}
+
+.clear-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  text-decoration: line-through;
+}
+
+.clear-list button {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.clear-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  font-size: 16px;
+}
